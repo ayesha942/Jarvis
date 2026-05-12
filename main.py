@@ -8,13 +8,13 @@ import time
 import config
 
 # Import our modules
-from core.speaker import Speaker
-from core.listener import Listener
-from core.command_handler import CommandHandler
+from speaker import Speaker
+from listener import Listener
+from commandhandler import CommandHandler
 
 # Optional: face recognition (only if enabled in config)
 if config.FACE_RECOGNITION_ENABLED:
-    from modules.face_recognition_module import FaceRecognizer
+    from facerecognition import FaceRecognizer
 
 
 def startup_sequence(speaker: Speaker, listener: Listener):
