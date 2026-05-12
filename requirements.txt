@@ -1,0 +1,9 @@
+anthropic
+SpeechRecognition
+pyttsx3
+pyaudio
+opencv-python
+face-recognition
+numpy
+wikipedia
+requests
